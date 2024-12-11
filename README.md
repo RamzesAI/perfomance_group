@@ -1,9 +1,11 @@
-cp .env.example .env
-для запуска базы даных выполнить команду docker-compose up
-для локального запуска приложения на 3000 порту выполнить npm run:start
-после запуска приложения создаются пользователи
--login user1@user.ru pass qwerty123
--login user2@user.ru pass qwerty123
-это считаются авторизованные пользователи с полным доступом
-документация swagger с описанием эндпоинтов находится по http://localhost:3000/swagger#
-авторизация по access_token
+ - cp .env.example .env
+ - для запуска базы даных выполнить команду docker-compose up
+ - для локального запуска приложения на 3000 порту выполнить npm run:start
+ - после запуска приложения создаются пользователи
+    -login user1@user.ru pass qwerty123
+		-login user2@user.ru pass qwerty123
+ - это считаются авторизованные пользователи с полным доступом
+ - документация swagger с описанием эндпоинтов находится по http://localhost:3000/swagger#
+ - авторизация по access_token
+		-login user1@user.ru pass qwerty123
+		-login user2@user.ru pass qwerty123
